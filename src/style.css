@@ -1,6 +1,7 @@
 html,body{
     margin:0px;
     padding:0px;
+    margin-right:54px;
 }
 h1{
     text-align: center;
@@ -26,7 +27,26 @@ div img{
     float:right;
     overflow: hidden;
 }
-
+ul{
+    position: fixed;
+    top:0px;
+    right: 0px;
+    bottom: 0px;
+    height:100%;
+    float:right;
+    margin: 0px;
+    list-style-type: none;
+    background-color:tomato;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding:10px;
+    
+}
+li a:hover{
+    background-color: #3C6E71;
+}
 .content{
     width:95%;
     overflow:auto;
