@@ -1,0 +1,38 @@
+html,body{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align:right;
+}
+h3{
+    text-align:center;
+    color:blue;
+}
+p{
+    font-size: 25px;
+}
+div{
+    margin: 10px;
+    background-color: bisque;
+    padding:10px;
+    margin-bottom:20px;
+    overflow:auto;
+}
+div img{
+    float:right;
+    overflow: hidden;
+}
+
+.content{
+    width:95%;
+    overflow:auto;
+}
+#heading{
+    background-color:rgba(0,0,0,0);
+    /*background-image:*/
+    margin:10px;
+}
