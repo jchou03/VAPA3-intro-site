@@ -1,7 +1,7 @@
 html,body{
     margin:0px;
     padding:0px;
-    margin-right:54px;
+    margin-right:74px;
 }
 h1{
     text-align: center;
@@ -27,7 +27,8 @@ div img{
     float:right;
     overflow: hidden;
 }
-ul{
+nav{
+    min-height:100vh;
     position: fixed;
     top:0px;
     right: 0px;
@@ -38,14 +39,17 @@ ul{
     list-style-type: none;
     background-color:tomato;
 }
-li a{
+nav a{
+    color:navy;
     text-decoration: none;
+    text-align: center;
+    font-family: monospace;
     display: block;
     padding:10px;
-    
 }
-li a:hover{
+nav a:hover{
     background-color: #3C6E71;
+    color:dodgerblue;
 }
 .content{
     width:95%;
