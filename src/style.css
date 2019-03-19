@@ -57,6 +57,7 @@ nav a:hover{
 }
 #heading{
     background-color:rgba(0,0,0,0);
-    /*background-image:*/
+    background-image: url(https://i.ytimg.com/vi/pmyN5tUHNYM/maxresdefault.jpg);
+    background-position: middle;
     margin:10px;
 }
